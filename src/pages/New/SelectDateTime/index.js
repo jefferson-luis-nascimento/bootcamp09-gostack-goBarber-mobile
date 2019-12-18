@@ -62,7 +62,7 @@ SelectDateTime.navigationOptions = ({ navigation }) => ({
   headerLeft: () => (
     <TouchableOpacity
       onPress={() => {
-        navigation.navigate('Dashboard');
+        navigation.navigate('SelectProvider');
       }}
     >
       <Icon name="chevron-left" size={30} color="#fff" />
